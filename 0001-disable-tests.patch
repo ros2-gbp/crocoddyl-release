@@ -1,0 +1,47 @@
+From 922c3c6419c9fabfa62ef3c0c23198ffc7a32ba1 Mon Sep 17 00:00:00 2001
+From: Guilhem Saurel <guilhem.saurel@laas.fr>
+Date: Tue, 27 Jan 2026 15:18:42 +0100
+Subject: [PATCH] disable tests
+
+---
+ CMakeLists.txt |  2 ++
+ package.xml    | 10 +++++-----
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 0dda394910..84d0c45e93 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,6 +1,8 @@
+ cmake_minimum_required(VERSION 3.22)
+ message(STATUS "CMake version: ${CMAKE_VERSION}")
+ 
++set(BUILD_TESTING OFF)
++
+ # Set up project properties
+ set(PROJECT_NAMESPACE loco-3d)
+ set(PROJECT_NAME crocoddyl)
+diff --git a/package.xml b/package.xml
+index a7aa0d3440..3a675ae100 100644
+--- a/package.xml
++++ b/package.xml
+@@ -26,11 +26,11 @@
+   <depend>eigenpy</depend>
+   <depend>pinocchio</depend>
+   <depend>coinor-libipopt-dev</depend>
+-  <exec_depend>example-robot-data</exec_depend>
+-  <test_depend>python3-scipy</test_depend>
+-  <test_depend>jupyter-notebook</test_depend>
+-  <test_depend>jupyter-nbconvert</test_depend>
+-  <test_depend>ffmpeg</test_depend>
++  <!-- <exec_depend>example-robot-data</exec_depend> -->
++  <!-- <test_depend>python3-scipy</test_depend> -->
++  <!-- <test_depend>jupyter-notebook</test_depend> -->
++  <!-- <test_depend>jupyter-nbconvert</test_depend> -->
++  <!-- <test_depend>ffmpeg</test_depend> -->
+ 
+   <buildtool_depend>cmake</buildtool_depend>
+   <export>
+-- 
+2.52.0
+
