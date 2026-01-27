@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 message(STATUS "CMake version: ${CMAKE_VERSION}")
 
-set(BUILD_TESTING OFF)
-
 # Set up project properties
 set(PROJECT_NAMESPACE loco-3d)
 set(PROJECT_NAME crocoddyl)
