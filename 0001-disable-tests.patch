@@ -1,7 +1,7 @@
-From 922c3c6419c9fabfa62ef3c0c23198ffc7a32ba1 Mon Sep 17 00:00:00 2001
+From 30dc0bb8b058ab3b910b7e0d0a2748e6bc67c6a0 Mon Sep 17 00:00:00 2001
 From: Guilhem Saurel <guilhem.saurel@laas.fr>
 Date: Tue, 27 Jan 2026 15:18:42 +0100
-Subject: [PATCH] disable tests
+Subject: [PATCH 1/2] disable tests
 
 ---
  CMakeLists.txt |  2 ++
