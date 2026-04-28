@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 message(STATUS "CMake version: ${CMAKE_VERSION}")
 
-set(BUILD_TESTING OFF)
-
 # Set up project properties
 set(PROJECT_NAMESPACE loco-3d)
 set(PROJECT_NAME crocoddyl)
@@ -101,8 +99,8 @@ endif()
 # Create different building options
 option(ENABLE_VECTORIZATION
        "Enable vectorization and further processor-related optimizations" OFF)
-option(BUILD_BENCHMARK "Build the benchmark" OFF)
-option(BUILD_EXAMPLES "Build the examples" OFF)
+option(BUILD_BENCHMARK "Build the benchmark" ON)
+option(BUILD_EXAMPLES "Build the examples" ON)
 option(BUILD_WITH_IPOPT "Build the IPOPT wrapper." ON)
 option(GENERATE_PYTHON_STUBS
        "Generate the Python stubs associated to the Python library" OFF)
