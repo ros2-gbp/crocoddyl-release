@@ -1,4 +1,4 @@
-From 98dcc7cf422e4735c3b5c296c4ce11d5dfb2a5b6 Mon Sep 17 00:00:00 2001
+From 5a4160adf518dad03ba3f0ee733d98cd0fa37fed Mon Sep 17 00:00:00 2001
 From: Guilhem Saurel <guilhem.saurel@laas.fr>
 Date: Tue, 27 Jan 2026 15:18:42 +0100
 Subject: [PATCH 1/2] disable tests
@@ -9,7 +9,7 @@ Subject: [PATCH 1/2] disable tests
  2 files changed, 7 insertions(+), 5 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 0dda39491094..84d0c45e9397 100644
+index 0dda394910..84d0c45e93 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -1,6 +1,8 @@
@@ -22,7 +22,7 @@ index 0dda39491094..84d0c45e9397 100644
  set(PROJECT_NAMESPACE loco-3d)
  set(PROJECT_NAME crocoddyl)
 diff --git a/package.xml b/package.xml
-index a7aa0d3440f6..3a675ae1006b 100644
+index a7aa0d3440..3a675ae100 100644
 --- a/package.xml
 +++ b/package.xml
 @@ -26,11 +26,11 @@

@@ -1,4 +1,4 @@
-From 2801a2cc54bfe6dcaca1e44a6b0f0c18a707745e Mon Sep 17 00:00:00 2001
+From edc096495869977f468ed41d9c41efb7c11cf22d Mon Sep 17 00:00:00 2001
 From: Guilhem Saurel <guilhem.saurel@laas.fr>
 Date: Fri, 6 Feb 2026 13:42:31 +0100
 Subject: [PATCH 2/2] disable examples benchmarks
@@ -8,7 +8,7 @@ Subject: [PATCH 2/2] disable examples benchmarks
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 84d0c45e9397..c21653dd5f6d 100644
+index 84d0c45e93..c21653dd5f 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -101,8 +101,8 @@ endif()
