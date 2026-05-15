@@ -1,0 +1,27 @@
+From 0440103d61c986e49f19b55d6104ccc7f47d072a Mon Sep 17 00:00:00 2001
+From: Guilhem Saurel <guilhem.saurel@laas.fr>
+Date: Fri, 6 Feb 2026 13:42:31 +0100
+Subject: [PATCH 2/2] disable examples benchmarks
+
+---
+ CMakeLists.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 30e5847423..215819b3b8 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -101,8 +101,8 @@ endif()
+ # Create different building options
+ option(ENABLE_VECTORIZATION
+        "Enable vectorization and further processor-related optimizations" OFF)
+-option(BUILD_BENCHMARK "Build the benchmark" ON)
+-option(BUILD_EXAMPLES "Build the examples" ON)
++option(BUILD_BENCHMARK "Build the benchmark" OFF)
++option(BUILD_EXAMPLES "Build the examples" OFF)
+ option(BUILD_WITH_IPOPT "Build the IPOPT wrapper." ON)
+ option(GENERATE_PYTHON_STUBS
+        "Generate the Python stubs associated to the Python library" OFF)
+-- 
+2.53.0
+
