@@ -1,3 +1,26 @@
+## crocoddyl (jazzy) - 3.2.1-2
+
+The packages in the `crocoddyl` repository were released into the `jazzy` distro by running `/nix/store/yr02v08v8dzvm5cbhvlbag590psbayxw-python3.13-bloom-0.14.3/bin/bloom-release -r jazzy crocoddyl` on `Fri, 15 May 2026 17:09:26 -0000`
+
+The `crocoddyl` package was released.
+
+Version of package(s) in repository `crocoddyl`:
+
+- upstream repository: https://github.com/loco-3d/crocoddyl.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `3.2.1-1`
+- new version: `3.2.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## crocoddyl (humble) - 3.2.1-2
 
 The packages in the `crocoddyl` repository were released into the `humble` distro by running `/nix/store/yr02v08v8dzvm5cbhvlbag590psbayxw-python3.13-bloom-0.14.3/bin/bloom-release -r humble crocoddyl` on `Fri, 15 May 2026 17:06:24 -0000`
